@@ -1,23 +1,215 @@
----
-layout: default
----
+<!DOCTYPE html>
 
-<div class="home">
+<html>
 
-  <h1 class="page-heading">Posts</h1>
+<head>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+<script src="https://use.fontawesome.com/4a82d11b77.js"></script>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+<link href="https://fonts.googleapis.com/css?family=Londrina+Shadow" rel="stylesheet">
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+<link href="https://fonts.googleapis.com/css?family=Londrina+Solid" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css?family=Londrina+Outline" rel="stylesheet">
+
+<title>PDXPotShots</title>
+  
+<style>
+      
+body {
+        
+text-align: center;
+        
+background: BlanchedAlmond;
+        
+color: BlanchedAlmond;
+        
+font-family: "Londrina Shadow", sans-serif;
+      
+}
+    
+      
+
+.container {
+        
+background: url("https://instagram.fsnc1-2.fna.fbcdn.net/t51.2885-15/e35/15043731_1110743429039892_7850364854538862592_n.jpg"); 
+        
+background-size: cover;
+        
+border-radius: 50%;
+        
+border: 15px black double;
+        
+width: 500px;
+        
+height: 500px;
+        
+display: table-cell;
+        
+vertical-align: middle;  
+        
+margin: 1px;
+        
+position: relative;
+
+      
+} 
+  
+      
+
+h1 {
+        
+font-size: 64px;
+        
+position: relative;
+        
+top: 25px;
+      
+}
+      
+
+p {
+        
+font-size: 32px;
+        
+font-family: "Londrina Solid";
+        
+position: relative;
+      
+}
+  
+
+.outer {
+    
+display: table;
+    
+position: absolute;
+    
+height: 100%;
+    
+width: 100%;
+
+}
+
+
+
+.middle {
+    
+display: table-cell;
+    
+vertical-align: middle;
+
+}
+
+
+
+.inner {
+    
+margin-left: auto;
+    
+margin-right: auto; 
+    
+width: 500px;
+
+}
+
+
+a {
+  
+text-decoration: none;
+  
+color: BlanchedAlmond;
+
+}
+
+
+#insta {
+  
+padding: 0 auto;
+  
+margin-top: -20px;
+  
+}
+  
+
+@media (max-width: 500px) {
+      
+h1 {
+        
+font-size: 36px;
+        
+padding: 5px;
+      
+}
+      
+p {
+        
+font-size: 22px;
+        
+}
+      
+    .container {
+        
+border-radius: 50%;
+        
+border: 15px black double;
+        
+width: 250px;
+        
+height: 250px;
+        
+display: table-cell;
+        
+vertical-align: middle;  
+        
+margin: 1px;
+        
+position: relative;
+
+      
+} 
+
+.inner {
+    
+width: 250px;
+
+}
+  
+}
+  
+</style>
+
+</head>
+
+
+<body>
+
+<div class="outer">
+  
+<div class="middle">
+    
+<div class="inner">
+  
+<div class="container">
+  
+<h1>coming soon!</h1>
+  
+<hr noshade color="BlanchedAlmond" width=100px size=2px>
+  
+<div id="insta">
+<p><a href="https://www.instagram.com/pdxpotshots/"><i class="fa fa-instagram" aria-hidden="true"></i> instagram</a></p>
+</div>
+  
+    
+</div>
+  
+</div>
 
 </div>
+  
+</div>
+  
+
+</body>
+
+</html>
